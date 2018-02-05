@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>assignment3</title>
+    </head>
+    <body>
+        <script>
+            //ask the user to enter a number grade
+            var numGrade = prompt("Enter number grade from 0 through 100 or enter 999 to end entries");
+            
+            //use "if" loop to generate and output the letter grade 
+            if(numGrade>=88&&numGrade<=100){
+            alert("Number grade = "+numGrade+"\nLetter grade = A");
+            }
+            else if(numGrade>=80&&numGrade<=87){
+            alert("Number grade = "+numGrade+"\nLetter grade = B");
+            }
+            else if(numGrade>=68&&numGrade<=79){
+            alert("Number grade = "+numGrade+"\nLetter grade = C");
+            }
+            else if(numGrade>=60&&numGrade<=67){
+            alert("Number grade = "+numGrade+"\nLetter grade = D");            }
+            else if(numGrade<60){
+            alert("Number grade = "+numGrade+"\nLetter grade = F");
+            }
+            else if(numGrade==999){
+            alert("Good bye")
+            }
+            else
+            alert("Please enter a valid number");
+            
+        </script>
+    </body>
+</html>
